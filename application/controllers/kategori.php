@@ -34,7 +34,7 @@ class kategori extends CI_Controller{
             'nama_kategori' => $this->input->post('nama_kategori')
         ];
 
-        $this->Kategori_model->insert($data);
+        $this->kategori_model->insert($data);
         redirect('kategori');
     }
     public function hapus($id)
