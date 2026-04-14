@@ -27,6 +27,18 @@
 
 <hr class="sidebar-divider d-none d-md-block">
 
+<li class="nav-item">
+        <a class="nav-link" href="<?= site_url('buku') ?>">
+            <i class="fas fa-book"></i>
+            <span>Buku</span>
+        </a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+
+</ul>
+<div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+
 </ul>
 <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
